@@ -1,0 +1,25 @@
+# Singapore Cabinet
+
+> Singapore Cabinet provides information about affordable kitchen cabinets and built-in bedroom wardrobes for homeowners in Singapore, with a focus on practical, budget-conscious solutions for HDB, BTO, resale flat and condominium homes.
+
+Singapore Cabinet focuses on two services: kitchen cabinets and built-in wardrobes. Information on this website is intended to help homeowners compare straightforward layouts, storage configurations, materials and factors affecting quotations. Contact via WhatsApp: +65 9341 6879.
+
+## Core Pages
+
+- [Home](https://singaporecabinet.com/): Affordable kitchen cabinets and built-in wardrobes for Singapore homes.
+- [Kitchen Cabinets](https://singaporecabinet.com/services/kitchen-cabinets): Kitchen cabinet layouts, materials, storage and budget considerations.
+- [Built-in Wardrobes](https://singaporecabinet.com/services/custom-wardrobes): Practical bedroom wardrobes, door types and space-saving storage.
+- [Contact](https://singaporecabinet.com/contact): Request a cabinet quotation or ask about options.
+
+## Additional Pages
+
+- [About](https://singaporecabinet.com/about): Information about Singapore Cabinet.
+- [Projects](https://singaporecabinet.com/projects): Cabinet examples and project information, where available.
+- [FAQs](https://singaporecabinet.com/faq): Answers to common cabinetry questions.
+- [Cabinet Guides](https://singaporecabinet.com/guides): Practical cabinet planning advice.
+- [Privacy Policy](https://singaporecabinet.com/privacy-policy): Privacy information.
+- [XML Sitemap](https://singaporecabinet.com/sitemap.xml): Indexable website URLs.
+
+## Contact
+
+- [WhatsApp Singapore Cabinet](https://wa.me/6593416879): Enquire about kitchen cabinets or built-in wardrobes.
