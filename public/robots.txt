@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://singaporecabinet.com/sitemap.xml
+
+# Optional AI discovery reference
+# llms.txt: https://singaporecabinet.com/llms.txt
