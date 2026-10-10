@@ -54,6 +54,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link to="/guides" className="hover:text-brand-400">
+                  Cabinet Guides
+                </Link>
+              </li>
+              <li>
                 <Link to="/faq" className="hover:text-brand-400">
                   FAQ
                 </Link>

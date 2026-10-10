@@ -841,5 +841,3 @@ export function CustomWardrobes() {
     </>
   );
 }
-
-export { CustomWardrobes }
