@@ -4,61 +4,62 @@ import { Seo } from "../components/Seo";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import { WhatsAppButton } from "../components/WhatsAppButton";
 import { siteConfig } from "../config/site";
+import { images } from "../config/images";
 
 const projectTypes = [
   {
-    title: "HDB BTO Kitchen Cabinets",
+    title: "Compact Kitchen Cabinet Design",
     description:
-      "Straight-line and L-shaped kitchen cabinet installations for new BTO flats. Simple laminate finishes in white, light grey and woodgrain tones.",
+      "Straight-line kitchen cabinet installation with white laminate doors, upper and lower shelving and practical storage layout.",
     type: "Kitchen Cabinets",
-    property: "HDB BTO",
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
-    alt: "Simple white laminate kitchen cabinets with woodgrain accents in a Singapore BTO flat",
+    property: "Compact Kitchen",
+    image: images.projects[0].image,
+    alt: images.projects[0].alt,
   },
   {
-    title: "HDB Resale Kitchen Replacement",
+    title: "Kitchen Cabinet Renovation",
     description:
-      "Full kitchen cabinet replacement for resale flats. Old cabinets removed, new laminate cabinets installed in a straight-line configuration.",
+      "Kitchen cabinet replacement with white laminate cabinets and practical countertops. Old cabinets removed and new ones installed.",
     type: "Kitchen Cabinet Replacement",
-    property: "HDB Resale",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
-    alt: "Freshly replaced kitchen cabinets in a Singapore resale HDB flat with light laminate finish",
+    property: "Renovation",
+    image: images.projects[1].image,
+    alt: images.projects[1].alt,
   },
   {
-    title: "BTO Master Bedroom Wardrobe",
+    title: "Full-Height Built-in Wardrobe",
     description:
-      "Full-height sliding-door wardrobe for a BTO master bedroom. Practical internal layout with hanging compartments, shelving and a small drawer section.",
+      "Full-height built-in wardrobe with white panels. Practical internal layout with hanging compartments, shelving and drawer section.",
     type: "Built-in Wardrobe",
-    property: "HDB BTO",
-    image: "https://images.unsplash.com/photo-1558997515-98c9603f4894?w=800&q=80",
-    alt: "Full-height sliding-door built-in wardrobe in a Singapore BTO master bedroom",
+    property: "Bedroom",
+    image: images.projects[2].image,
+    alt: images.projects[2].alt,
   },
   {
-    title: "Common Bedroom Swing-Door Wardrobe",
+    title: "Compact Bedroom Wardrobe",
     description:
-      "Swing-door wardrobe for a smaller HDB common bedroom. Standard height with hanging and shelving — economical and practical.",
+      "Built-in wardrobe for a compact bedroom. Standard height with hanging and shelving — economical and practical.",
     type: "Built-in Wardrobe",
-    property: "HDB BTO",
-    image: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&q=80",
-    alt: "Swing-door built-in wardrobe in a compact HDB common bedroom with laminate doors",
+    property: "Compact Bedroom",
+    image: images.projects[3].image,
+    alt: images.projects[3].alt,
   },
   {
-    title: "L-Shaped Kitchen — Condo Unit",
+    title: "L-Shaped Kitchen Cabinets",
     description:
-      "L-shaped kitchen cabinet installation for a condo unit. Upper and lower cabinets with a laminate finish and standard soft-close hardware.",
+      "L-shaped kitchen cabinet installation with grey and white laminate doors, upper and lower cabinets and standard hardware.",
     type: "Kitchen Cabinets",
-    property: "Condominium",
-    image: "https://images.unsplash.com/photo-1576022757810-af06631e6bf4?w=800&q=80",
-    alt: "L-shaped kitchen cabinet with laminate finish and upper cabinets in a Singapore condo unit",
+    property: "L-Shaped Kitchen",
+    image: images.projects[4].image,
+    alt: images.projects[4].alt,
   },
   {
-    title: "Full-Height Bedroom Wardrobe — Resale Flat",
+    title: "Floor-to-Ceiling Wardrobe",
     description:
-      "Full-height built-in wardrobe replacing an older freestanding unit in a resale HDB bedroom. Wall-to-wall fit with dual hanging heights and shelving.",
+      "Floor-to-ceiling built-in wardrobe with woodgrain and glass sliding doors. Wall-to-wall fit with dual hanging heights and shelving.",
     type: "Built-in Wardrobe",
-    property: "HDB Resale",
-    image: "https://images.unsplash.com/photo-1591646682698-3919b4dbf1bd?w=800&q=80",
-    alt: "Full-height floor-to-ceiling built-in wardrobe in a Singapore resale flat bedroom",
+    property: "Full-Height",
+    image: images.projects[5].image,
+    alt: images.projects[5].alt,
   },
 ];
 

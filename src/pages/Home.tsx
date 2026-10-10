@@ -3,6 +3,7 @@ import { MessageCircle, ArrowRight, CookingPot, DoorClosed, CircleCheck as Check
 import { Seo } from "../components/Seo";
 import { WhatsAppButton } from "../components/WhatsAppButton";
 import { siteConfig, getWhatsAppUrl } from "../config/site";
+import { images } from "../config/images";
 
 const faqs = [
   {
@@ -158,7 +159,7 @@ export function Home() {
             <div className="relative">
               <div className="aspect-[4/3] overflow-hidden rounded-2xl bg-brand-100 shadow-sm">
                 <img
-                  src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+                  src={images.kitchenHero}
                   alt="Simple white kitchen cabinets with light woodgrain finishes in a Singapore HDB flat"
                   className="h-full w-full object-cover"
                   loading="eager"
@@ -284,7 +285,7 @@ export function Home() {
             </div>
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1576022757810-af06631e6bf4?w=800&q=80"
+                src={images.kitchenLShaped}
                 alt="L-shaped kitchen cabinet with laminate finish in a Singapore BTO flat"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -302,7 +303,7 @@ export function Home() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="order-2 overflow-hidden rounded-2xl bg-neutral-100 shadow-sm lg:order-1">
               <img
-                src="https://images.unsplash.com/photo-1558997515-98c9603f4894?w=800&q=80"
+                src={images.wardrobeHero}
                 alt="Full-height built-in wardrobe with sliding doors in a Singapore bedroom"
                 className="h-full w-full object-cover"
                 loading="lazy"

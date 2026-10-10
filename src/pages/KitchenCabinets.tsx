@@ -19,6 +19,7 @@ import { Seo } from "../components/Seo";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import { WhatsAppButton } from "../components/WhatsAppButton";
 import { siteConfig } from "../config/site";
+import { images } from "../config/images";
 
 const kitchenFaqs = [
   {
@@ -184,7 +185,7 @@ export function KitchenCabinets() {
             </div>
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+                src={images.kitchenHero}
                 alt="Affordable white laminate kitchen cabinets with woodgrain accents in a Singapore HDB flat"
                 className="h-full w-full object-cover"
                 loading="eager"
@@ -286,7 +287,7 @@ export function KitchenCabinets() {
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div className="order-2 overflow-hidden rounded-2xl bg-neutral-100 shadow-sm lg:order-1">
               <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+                src={images.kitchenStraightLine}
                 alt="Simple HDB BTO kitchen with straight-line laminate cabinets and basic upper shelving"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -433,7 +434,7 @@ export function KitchenCabinets() {
             </div>
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1600488999382-29c5e8b9d83d?w=800&q=80"
+                src={images.kitchenUpperLower}
                 alt="Upper and lower kitchen cabinets with laminate doors in a compact Singapore flat kitchen"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -500,7 +501,7 @@ export function KitchenCabinets() {
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1580046523806-3c0a9c8bdf3d?w=800&q=80"
+                src={images.kitchenLaminate}
                 alt="Light woodgrain laminate kitchen cabinet doors with easy-clean surfaces in a Singapore BTO"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -653,7 +654,7 @@ export function KitchenCabinets() {
             </div>
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1556911220-bff65c98c6b0?w=800&q=80"
+                src={images.kitchenReplacement}
                 alt="Kitchen cabinet replacement showing new laminate cabinets installed in a resale HDB flat"
                 className="h-full w-full object-cover"
                 loading="lazy"

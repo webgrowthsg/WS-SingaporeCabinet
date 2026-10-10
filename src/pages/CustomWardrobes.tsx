@@ -20,6 +20,7 @@ import { Seo } from "../components/Seo";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import { WhatsAppButton } from "../components/WhatsAppButton";
 import { siteConfig } from "../config/site";
+import { images } from "../config/images";
 
 const wardrobeFaqs = [
   {
@@ -185,7 +186,7 @@ export function CustomWardrobes() {
             </div>
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1558997515-98c9603f4894?w=800&q=80"
+                src={images.wardrobeHero}
                 alt="Full-height built-in wardrobe with sliding doors in a Singapore HDB bedroom"
                 className="h-full w-full object-cover"
                 loading="eager"
@@ -237,7 +238,7 @@ export function CustomWardrobes() {
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&q=80"
+                src={images.wardrobeCompact}
                 alt="Simple built-in wardrobe in a compact HDB bedroom with practical shelving and hanging space"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -326,7 +327,7 @@ export function CustomWardrobes() {
             </div>
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1583845112203-29329902332e?w=800&q=80"
+                src={images.wardrobeSlidingDoor}
                 alt="Sliding-door wardrobe with laminate panels in a compact Singapore bedroom"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -344,7 +345,7 @@ export function CustomWardrobes() {
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div className="order-2 overflow-hidden rounded-2xl bg-neutral-100 shadow-sm lg:order-1">
               <img
-                src="https://images.unsplash.com/photo-1548576775-a7ff8c4c5b95?w=800&q=80"
+                src={images.wardrobeSwingDoor}
                 alt="Swing-door built-in wardrobe with simple laminate doors in a Singapore BTO bedroom"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -444,7 +445,7 @@ export function CustomWardrobes() {
             </div>
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1591646682698-3919b4dbf1bd?w=800&q=80"
+                src={images.wardrobeFullHeight}
                 alt="Floor-to-ceiling built-in wardrobe maximising vertical storage in a Singapore HDB bedroom"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -563,7 +564,7 @@ export function CustomWardrobes() {
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1586022185382-3e5a9b6c5b1a?w=800&q=80"
+                src={images.wardrobeSpaceSaving}
                 alt="Space-saving wardrobe with practical internal layout in a small Singapore bedroom"
                 className="h-full w-full object-cover"
                 loading="lazy"

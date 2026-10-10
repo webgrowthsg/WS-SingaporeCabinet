@@ -15,6 +15,7 @@ import { Seo } from "../components/Seo";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import { WhatsAppButton } from "../components/WhatsAppButton";
 import { siteConfig } from "../config/site";
+import { images } from "../config/images";
 
 const values = [
   {
@@ -130,7 +131,7 @@ export function About() {
             </div>
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+                src={images.kitchenHero}
                 alt="Clean, practical kitchen cabinet installation in a Singapore HDB flat"
                 className="h-full w-full object-cover"
                 loading="eager"
@@ -203,7 +204,7 @@ export function About() {
             </div>
             <div className="overflow-hidden rounded-2xl bg-neutral-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1558997515-98c9603f4894?w=800&q=80"
+                src={images.wardrobeHero}
                 alt="Practical full-height built-in wardrobe with laminate finish in a Singapore bedroom"
                 className="h-full w-full object-cover"
                 loading="lazy"

@@ -12,16 +12,10 @@ export const siteConfig = {
   },
   nav: [
     { label: "Home", path: "/" },
-    { label: "About", path: "/about" },
-    {
-      label: "Services",
-      children: [
-        { label: "Kitchen Cabinets", path: "/services/kitchen-cabinets" },
-        { label: "Custom Wardrobes", path: "/services/custom-wardrobes" },
-      ],
-    },
+    { label: "Kitchen Cabinets", path: "/services/kitchen-cabinets" },
+    { label: "Built-in Wardrobes", path: "/services/custom-wardrobes" },
     { label: "Projects", path: "/projects" },
-    { label: "FAQ", path: "/faq" },
+    { label: "Guides", path: "/guides" },
     { label: "Contact", path: "/contact" },
   ],
   services: [
@@ -58,7 +52,7 @@ export const siteConfig = {
     },
   ],
   social: {
-    ogImage: "https://singaporecabinet.com/og-image.jpg",
+    ogImage: "https://images.pexels.com/photos/6523300/pexels-photo-6523300.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
   },
 };
 
