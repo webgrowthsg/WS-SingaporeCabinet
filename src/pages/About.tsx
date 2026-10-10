@@ -314,6 +314,3 @@ export function About() {
   );
 }
 
-
-
-export { About }
